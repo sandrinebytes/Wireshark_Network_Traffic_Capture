@@ -18,7 +18,6 @@ This packet shows a client making a standard HTTP GET request to the server’s 
 - Shows adoption of IPv6 addressing in web communication.  
 - Useful in detecting anomalies in normal browsing behavior.  
 
-📷 Insert Image: (Frame 49 HTTP GET)  
 ![Packet 49 HTTP GET](images/packet-49-http-get.png)
 
 ---
@@ -33,8 +32,7 @@ This is the server's response to Packet 49. It confirms the server delivered the
 - Port: TCP 80  
 - IPv6 Addressing  
 
-📷 Insert Image: (Frame 51 200 OK)  
-![Packet 51 200 OK](images/packet-51-200-ok.png)
+![Packet 51 HTTP 200 OK](images/packet-51-http-200-ok.png)
 
 ---
 
