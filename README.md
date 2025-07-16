@@ -40,3 +40,25 @@ This is the server's response to Packet 49. It confirms the server delivered the
 A full web request session was captured using the filter:  
 ```bash
 tcp.port == 80
+
+
+
+
+
+
+
+
+
+
+## 🔁 TCP ACK Flow – Packets 48–52
+These packets illustrate flow control and acknowledgment during the TCP session.
+
+📷 **Packet 48 ACK Flag**  
+![Packet 48 ACK](images/packet-48-ack.png)
+
+## ✅ Summary
+This analysis showcases:
+- A complete TCP/HTTP communication session over IPv6.
+- Handshake → Request → Response → Termination flow.
+- Proper use of Wireshark filters and TCP flag inspection.
+- mDNS behavior in IPv6-based local network environments.
