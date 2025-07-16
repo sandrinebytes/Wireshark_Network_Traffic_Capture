@@ -19,7 +19,7 @@ This packet shows a client making a standard HTTP GET request to the server’s 
 - Useful in detecting anomalies in normal browsing behavior.  
 
 📷 Insert Image: (Frame 49 HTTP GET)  
-![Packet 49 HTTP GET](insert-image-path-here)
+![Packet 49 HTTP GET](images/packet-49-http-get.png)
 
 ---
 
@@ -34,7 +34,7 @@ This is the server's response to Packet 49. It confirms the server delivered the
 - IPv6 Addressing  
 
 📷 Insert Image: (Frame 51 200 OK)  
-![Packet 51 200 OK](insert-image-path-here)
+![Packet 51 200 OK](images/packet-51-200-ok.png)
 
 ---
 
