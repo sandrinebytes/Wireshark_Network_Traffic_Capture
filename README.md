@@ -54,7 +54,7 @@ tcp.port == 80
 These packets illustrate flow control and acknowledgment during the TCP session.
 
 📷 **Packet 48 ACK Flag**  
-![Packet 48 ACK](packet-48-tcp-ack-flag.png)
+![TCP ACK Flag](tcp-ack-flag.png)
 
 ## ✅ Summary
 This analysis showcases:
