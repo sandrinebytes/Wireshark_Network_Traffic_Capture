@@ -66,7 +66,7 @@ User-Agent: Lynx/2.8.6rel.2 ...
 
 
 📷 Image: (Full GET Header View)  
-![Packet 49 Full Request](packet-49-full-get-header.png)
+![Packet 49 Full Request](packet-49-full-request.png)
 
 # HTTP Response & Session Termination (Packets 50–55)
 
