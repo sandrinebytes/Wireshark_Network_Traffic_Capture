@@ -73,14 +73,14 @@ User-Agent: Lynx/2.8.6rel.2 ...
 - Packets 50–51: 200 OK, content returned.  
 - Packets 52–55: ACK and FIN, proper TCP teardown.
 
-📷 Insert Image: (Frame 55 FIN/ACK)  
-![Packet 55 FIN ACK](packet-55-fin-ack.png)
+📷 Image: (Frame 55 FIN/ACK)  
+![Packet 55 TCP FIN ACK](packet-55-tcp-fin-ack.png)
 
 # Multicast DNS (mDNS) Query – Packet 6
 
 A reverse lookup request using IPv6 MDNS to resolve device hostnames like linux.local.
 
-📷 Insert Image: (Packet 6 MDNS Query)  
+📷 Image: (Packet 6 MDNS Query)  
 ![Packet 6 MDNS](packet-6-mdns-query.png)
 
 # Additional mDNS Traffic – Packets 8–13
