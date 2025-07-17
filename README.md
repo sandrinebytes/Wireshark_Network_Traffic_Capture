@@ -53,7 +53,7 @@ The session begins with a standard 3-way TCP handshake.
 Flags: 0x018 (PSH, ACK) – confirms data transfer initiated.
 
 📷 Image: (TCP Flags View of Packet 49)  
-![Packet 49 Flags](packet-49-flags.png)
+![Packet 49 Flags](packet-49-tcp-flags)
 
 # HTTP Header Breakdown
 
