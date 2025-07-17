@@ -45,14 +45,14 @@ tcp.port == 80
 
 The session begins with a standard 3-way TCP handshake.
 
-📷 Insert Image: (Packet 46 SYN Handshake)  
+📷 Image: (Packet 46 SYN Handshake)  
 ![Packet 46 SYN](packet-46-syn.png)
 
 ## 📤 HTTP GET Over IPv6 – Packet 49 (Details)
 
 Flags: 0x018 (PSH, ACK) – confirms data transfer initiated.
 
-📷 Insert Image: (TCP Flags View of Packet 49)  
+📷 Image: (TCP Flags View of Packet 49)  
 ![Packet 49 Flags](packet-49-flags.png)
 
 # HTTP Header Breakdown
@@ -65,7 +65,7 @@ Accept-Language: en
 User-Agent: Lynx/2.8.6rel.2 ...
 
 
-📷 Insert Image: (Full GET Header View)  
+📷 Image: (Full GET Header View)  
 ![Packet 49 Full Request](packet-49-full-request.png)
 
 # HTTP Response & Session Termination (Packets 50–55)
@@ -88,8 +88,8 @@ A reverse lookup request using IPv6 MDNS to resolve device hostnames like linux.
 - Redundant queries typical of multicast traffic.  
 - AAAA, PTR, and HINFO records included in responses.
 
-📷 Insert Image: (Packet 7 MDNS Response)  
-![Packet 7 Response](packet-7-mdns-response.png)
+📷 Image: (Packet 7 MDNS Response)  
+![Packet 7 Response](MDNS_Packet7_DNS.png)
 
 ## 🔁 TCP ACK Flow – Packets 48–52
 These packets illustrate flow control and acknowledgment during the TCP session.
