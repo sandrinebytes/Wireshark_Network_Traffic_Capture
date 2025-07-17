@@ -41,14 +41,55 @@ A full web request session was captured using the filter:
 ```bash
 tcp.port == 80
 
+## 📍 TCP Handshake (Packets 46–48)
+
+The session begins with a standard 3-way TCP handshake.
+
+📷 Insert Image: (Packet 46 SYN Handshake)  
+![Packet 46 SYN](packet-46-syn.png)
+
+## 📤 HTTP GET Over IPv6 – Packet 49 (Details)
+
+Flags: 0x018 (PSH, ACK) – confirms data transfer initiated.
+
+📷 Insert Image: (TCP Flags View of Packet 49)  
+![Packet 49 Flags](packet-49-flags.png)
+
+# HTTP Header Breakdown
+
+GET / HTTP/1.0
+Host: cl-1985.ham-01.de.sixxs.net
+Accept: text/html, text/plain, text/css, text/sgml, /;q=0.01
+Accept-Encoding: gzip, bzip2
+Accept-Language: en
+User-Agent: Lynx/2.8.6rel.2 ...
 
 
+📷 Insert Image: (Full GET Header View)  
+![Packet 49 Full Request](packet-49-full-request.png)
 
+# HTTP Response & Session Termination (Packets 50–55)
 
+- Packets 50–51: 200 OK, content returned.  
+- Packets 52–55: ACK and FIN, proper TCP teardown.
 
+📷 Insert Image: (Frame 55 FIN/ACK)  
+![Packet 55 FIN ACK](packet-55-fin-ack.png)
 
+# Multicast DNS (mDNS) Query – Packet 6
 
+A reverse lookup request using IPv6 MDNS to resolve device hostnames like linux.local.
 
+📷 Insert Image: (Packet 6 MDNS Query)  
+![Packet 6 MDNS](packet-6-mdns-query.png)
+
+# Additional mDNS Traffic – Packets 8–13
+
+- Redundant queries typical of multicast traffic.  
+- AAAA, PTR, and HINFO records included in responses.
+
+📷 Insert Image: (Packet 7 MDNS Response)  
+![Packet 7 Response](packet-7-mdns-response.png)
 
 ## 🔁 TCP ACK Flow – Packets 48–52
 These packets illustrate flow control and acknowledgment during the TCP session.
