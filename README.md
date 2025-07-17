@@ -46,7 +46,7 @@ tcp.port == 80
 The session begins with a standard 3-way TCP handshake.
 
 📷 Image: (Packet 46 SYN Handshake)  
-![Packet 46 SYN](packet-46-syn.png)
+![Packet 46 SYN](packet-46-tcp-syn-handshake.png)
 
 ## 📤 HTTP GET Over IPv6 – Packet 49 (Details)
 
